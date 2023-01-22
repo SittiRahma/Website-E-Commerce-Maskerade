@@ -1,0 +1,135 @@
+*{
+    background: #f8f8f8;
+}
+
+.container{
+    background: #fff;
+    box-shadow: 5px;
+    margin: 50px 50px;
+    box-shadow: 10px rgba(0,0,0,0.06);
+}
+.container p,
+.container h4, 
+.container h3,
+.container span,
+.container strong,
+.container img {
+    background: #fff;
+}
+
+.atas{
+    display: flex;
+    background: #fff;
+    padding: 20px 30px;
+    border-bottom: 1px solid #716f6f;
+}
+.atas a{
+    background: #fff;
+}
+.atas img{
+    width: 40px;
+    margin: 0 20px;
+    background: #fff;
+}
+.atas p {
+    margin: 0 20px;
+    font-size: 30px;
+    background: #fff;
+    
+}
+
+.info-rekening{
+    margin: 0 300px;
+    justify-content: center;
+    background: #fff;
+    background-color: #fff;
+}
+
+.total-bayar{
+    background: #fff;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #716f6f;
+}
+
+.info-bank{
+    margin-top: 30px;
+    background: #fff;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-bank img{
+    width: 50px;
+}
+
+.data-rekening{
+    margin-top: 30px;
+    background: #fff;
+}
+
+.data-rekening .verifikasi{
+    font-style: italic;
+    color: #278160;
+}
+
+.petunjuk{
+    margin: 0 300px;
+    justify-content: center;
+    background: #fff;
+    background-color: #fff;
+}
+
+.transfer-atm,
+.transfer-mbanking{
+    margin-top: 30px;
+    background: #fff;
+}
+
+.transfer-atm h4,
+.transfer-mbanking h4{
+    border-bottom: 1px solid #716f6f;
+}
+
+.petunjuk p span{
+    width: 200px;
+    height: 200px;
+    text-align:center;
+    font-size: 15px;
+    border: 1px solid #383838;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 0;
+    text-transform: uppercase;
+    color: #fff;
+    background: #878383;
+}
+
+.ok{
+    margin: 50px 200px;
+    justify-content: center;
+    background-color: #088178;
+    color: white;
+    font-size: 16px;
+    width: 300px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+    border: 0;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15;
+    border-radius: 7px;
+}
+
+.petunjuk .bukti {
+    font-weight: 700;
+    font-size: 20px;
+    color: #278160;
+    font-style: italic;
+}

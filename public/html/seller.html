@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Dashboard</title>
+
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../css/seller.css">
+</head>
+<body>
+    <img src="../img/loader.gif" class="loader" alt="">
+
+    <div class="alert-box">
+        <img src="../img/icon/error.png" class="alert-img" alt="">
+        <p class="alert-msg">Error message</p>
+    </div>
+
+    <img src="../img/logo1.png" class="logo" alt="">
+
+    <!-- element seller -->
+    <div class="become-seller hide">
+        <p class="heading">Become a Seller</p>
+        <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis saepe necessitatibus eaque omnis dolorum totam sed consequuntur itaque quos harum modi fuga aliquid, dolore assumenda porro, nobis maxime delectus dignissimos?</p>
+        <button class="btn" id="apply-btn">Daftar untuk Akun Seller</button>
+    </div>
+
+    <!-- apply form -->
+    <div class="apply-form">
+        <input type="text" id="business-name" placeholder="nama toko">
+        <textarea id="business-add" placeholder="alamat"></textarea>
+        <textarea id="about" placeholder="tentang"></textarea>
+        <input type="text" id="number" placeholder="nomor HP">
+        <input type="checkbox" checked class="checkbox" checked id="terms-and-cond">
+        <label for="legitInfo">Setuju dengan <a href="">terms and conditions</a></label>
+        <br>
+        <input type="checkbox" checked class="checkbox" checked id="legitInfo">
+        <label for="legitInfo">Semua informasi benar</label>
+        <button class="submit-btn" id="apply-form-btn">Daftar</button>
+            
+    </div>
+
+    <!-- List Produk -->
+    <div class="product-listing">
+        <div class="add-product">
+            <p class="add-product-title">Tambahkan Produk</p>
+            <button class="btn">Tambah Produk</button>
+        </div>
+        <img src="../img/Foto3.jpg" alt="" class="no-product-image">
+    </div>
+
+    <script src="../js/seller.js"></script>
+
+</body>
+</html>

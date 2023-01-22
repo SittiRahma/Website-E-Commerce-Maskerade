@@ -1,0 +1,142 @@
+/*single product */
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  #prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+  }
+
+  .small-img-group{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    margin: 3px 5px;
+  }
+  
+  /* Cara 2 */
+  #prodetails .image-slider{
+    width: 40%;
+    margin-right: 50px;
+  }
+  
+  .product-image{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-image img{
+    flex-basis: 24%;
+    cursor: pointer;
+    margin: 3px 5px;
+  }
+  
+  #prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+  }
+  
+  #prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+  }
+  
+  #prodetails .single-pro-details h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  #prodetails .single-pro-details p {
+    font-size: 15px;
+    margin: 10px 0 10px;
+    font-weight: 30px;
+  }
+  
+  .color-radio-btn{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    text-align:center;
+    font-size: 15px;
+    border: 1px solid #383838;
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: 0;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #383838;
+    cursor: pointer;
+  }
+  
+  .size-radio-btn{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align:center;
+    font-size: 15px;
+    border: 1px solid #383838;
+    border-radius: 50%;
+    margin: 10px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #383838;
+    cursor: pointer;
+  }
+  
+  .size-radio-btn.check, 
+  .color-radio-btn.check{
+    background: #383838;
+    color: #fff;
+  }
+  
+  #prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+  
+  #prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  #prodetails .single-pro-details input:focus{
+      outline: none;
+  }
+  
+  #prodetails .single-pro-details button {
+      background-color: #088178;
+      color: white;
+      font-size: 16px;
+      text-transform: capitalize;
+      font-weight: 500;
+      padding: 8px 20px;
+      transition: all 0.3s ease;
+      border: 0;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 15;
+      border-radius: 7px;
+  }
+  
+  #prodetails .single-pro-details span {
+    line-height: 25px;
+  }
+  
+  .detail-product{
+    margin: 30px 80px;
+    margin-bottom: 90px;
+  }
+

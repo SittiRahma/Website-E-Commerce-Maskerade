@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Pembayaran</title>
+
+    <link rel="stylesheet" href="../css/transfer.css">
+</head>
+<body>
+    <div class="container">
+        <div class="atas">
+            <a href="splontara.html"><img src="../img/pembayaran/back_btn.png" alt=""></a>
+            <p>Pembayaran</p>
+        </div>
+        
+        <div class="info-rekening">
+            <div class="total-bayar">
+                <h4>Total Pembayaran</h4>
+                <p class="total">Rp</p>
+                <script>
+                    document.getElementsByClassName('total').innerHTML = bayar;
+                </script>
+            </div>
+            <div class="info-bank">
+                <img src="../img/pembayaran/logo-bni.png" alt="logo bni">
+                <p>Bank Negara Indonesia (BNI)</p>
+            </div>
+            <div class="data-rekening">
+                <p>No. Rekening</p>
+                <h3>123456789</h3>
+                <p>Bayar Pembayaran Sesuai Jumlah di atas</p>
+                <p class="verifikasi">Proses verifikasi pembayaran dilakukan dengan transfer bukti ke nomor wa admin</p>
+            </div>
+        </div>
+        <div class="petunjuk">
+            <div class="transfer-atm">
+                <h4>Petunjuk Transfer ATM</h4>
+                <p><span>1</span>Masukkan kartu debit dan nomor PIN rekening</p>
+                <p><span>2</span>Pilih opsi <strong>Transaksi Lainnya</strong></p>
+                <p><span>3</span>Pilih opsi <strong>Transfer</strong></p>
+                <p><span>4</span>Jika sesama pengguna BNI, pilih <strong>Transfer ke Rekening BNI</strong>
+                untuk pengirim dari rekening lain, pilih <strong>Rekening Bank Lain</strong></p>
+                <p><span>5</span>Untuk pilihan transfer ke rekening bank lain, masukkan kode transaksi bank BNI yaitu <strong>009</strong></p>
+                <p><span>6</span>Masukkan nomor rekening <strong>123456789</strong></p>
+                <p><span>7</span>Masukkan total pembayaran</p>
+                <p><span>8</span>Kalau sudah benar, tekan tombol <strong>Ya</strong></p>
+                <p class="bukti">Jangan lupa foto bukti pembayaran sebelum meninggalkan ATM</p>
+            </div>
+
+            <div class="transfer-mbanking">
+                <h4>Petunjuk Transfer ATM</h4>
+                <p><span>1</span>Akses BNI Mobile Banking melalui handphone></p>
+                <p><span>2</span>Masukkan User ID dan Password</p>
+                <p><span>3</span>Pilih menu <strong>Transfer</strong>, lalu pilih <strong>Antar Rekening BNI</strong>, jika menggunakan BNI atau pilih <strong>Transfer ke Bank Lain</strong> jika tidak menggunakan BNI</p>
+                <p><span>4</span>pilih <strong>Input Rekening Baru</strong></p>
+                <p><span>5</span>Masukkan nomor rekening <strong>123456789</strong></p>
+                <p><span>6</span>Masukkan total pembayaran</p>
+                <p><span>7</span>Masukkan referensi</p>
+                <p><span>8</span>Di halaman konfirmasi, pastikan data transaksi sudah benar kemudian pilih <strong>Ya</strong></p>
+                <p><span>9</span>Masukkan password mobile banking kemudian klik <strong>Ya</strong></p>
+                <p class="bukti">Jangan lupa foto bukti pembayaran sebelum keluar aplikasi</p>
+            </div>
+            <button class="ok" onclick="window.location='index.html'">OK</button>
+        </div>
+    </div>
+
+    <script src="../js/addtocart.js"></script>
+</body>
+</html>
