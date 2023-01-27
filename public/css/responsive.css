@@ -68,60 +68,100 @@ label #cancel{
       display: block;
     }
 
-    /* #navbar {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
-      position: fixed;
-      top: 0;
-      right: -300px; 
-      height: 100vh;
-      width: 300px;
-      background-color: #e3e6f3;
-      box-shadow: 0 40px 60px rgba(0,0,0,0.1);
-      padding: 80px 0 0 10px;
-      transition: 0.3s;
-    } */
+    /* Hero Section */
 
-    /*
-    #navbar li {
-      margin-bottom: 25px;
+    #hero {
+      height: 70vh;
+      padding: 0 80px;
+      background-position: top 30% right 30%;
     }
-  
-    #navbar .active{
-      right: 0px;
-    }
-  
-    
-    #mobile {
-        display: flex;
-        align-items: center;
-      }
 
-    #mobile i{
-        color: white;
-        font-size: 24px;
-        padding-left: 20px;
-      }
-    
-    #mobile #btn{
-        display: block;
+    #about{
+      font-size: 15px;
     }
-  
-    
 
-    #bar:hover{
-        cursor: pointer;
-    }
+    #feature {
+      margin: 0;
+      justify-content: space-between;
+  }
+  #feature .fe-box{ 
+    width: 120px;
+    height: 200px;
+    font-size: 5px;
+  }
+
+  #product1 .pro{
+    width: 35%;
+    min-width: 40px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 15px;
+    transition: 0.2s ease;
+    position: relative;
+  }
+
+  #footer .footer-top .kanan{
+    float: left;
+  }
+
+  /* Page Blog */
+  #blog {
+    padding: 100px;
+  }
+  #blog .blog-box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 400px;
+  }
+  #blog .blog-box .blog-img{
+    margin-bottom: 10px;
+  }
+  #blog .blog-box .blog-details{
+    margin-bottom: 50px;
+  }
+
+  #pagination{
+    margin-top: 0;
+  }
+
+  /* Single Product */
+    #prodetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  #prodetails .single-pro-image{
+    margin: 0 50px;
+    width: 80%;
+    margin-right: 50px;
+  }
+
+  #prodetails .single-pro-details{
+    width: 100%;
+    padding-top: 30px;
+    margin-left: -30px;
+    justify-content: center;
+  }
+
+  #prodetails .single-pro-details h4{
+    padding: 10px 10px 10px 0px;
+  }
+
+  .addCart{
+    margin: 0 50px;
+  }
+  .detail-product{
+    margin: 30px 50px;
+    margin-bottom: 90px;
+  }
   
-    #close{
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        color: #222;
-        font-size: 24px;
-    } */
 }
   
   
